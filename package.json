@@ -1,0 +1,44 @@
+{
+  "name": "yui-clumper",
+  "version": "0.0.0",
+  "description": "Create NPM-ready packages of specific YUI modules",
+  "main": "lib/index.js",
+  "bin": {
+    "clumper": "bin/cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run jscs && npm run jshint && npm run istanbul",
+    "jshint": "jshint .",
+    "jscs": "jscs bin/ lib/",
+    "istanbul": "istanbul test --print both ./node_modules/mocha/bin/_mocha",
+    "mocha": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gnode ithub.com/tivac/yui-clumper.git"
+  },
+  "keywords": [
+    "yui",
+    "modules",
+    "npm"
+  ],
+  "author": "Pat Cavit <pcavit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tivac/yui-clumper/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "istanbul": "~0.2.4",
+    "jshint": "~2.4.4",
+    "jscs": "~1.2.4"
+  },
+  "dependencies": {
+    "shelljs": "~0.2.6",
+    "yui": "~3.14.1",
+    "nomnom": "~1.6.2"
+  }
+}
