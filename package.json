@@ -39,6 +39,7 @@
   "dependencies": {
     "shelljs": "~0.2.6",
     "yui": "~3.14.1",
-    "nomnom": "~1.6.2"
+    "nomnom": "~1.6.2",
+    "jscs": "~1.3.0"
   }
 }

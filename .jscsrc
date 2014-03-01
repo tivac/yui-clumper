@@ -1,8 +1,4 @@
-/*jshint node:true */
-
-"use strict";
-
-module.exports = {
+{
     /*
         Option: requireCurlyBraces
         Requires curly braces after statements.
@@ -708,4 +704,4 @@ module.exports = {
         Pluggable rules
     */
     "additionalRules": []
-};
+}
