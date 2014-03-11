@@ -1,0 +1,16 @@
+{
+    "description": "YUI 3 Source. Filtered by yui-clumper to include only: <%= modules %>",
+    "engines": {
+      "node": ">=0.8.0"
+    },
+    "directories": {
+      "lib": "."
+    },
+    "main": "./index.js",
+    "licenses": [
+      {
+        "type": "BSD",
+        "url": "http://yuilibrary.com/license/"
+      }
+    ]
+}
