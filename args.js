@@ -4,8 +4,7 @@ module.exports = {
     filters : {
         string  : "-f FILTER, --filter=FILTER",
         help    : "YUI file versions to include",
-        list    : true,
-        default : [ "min" ]
+        list    : true
     },
     
     modules : {
@@ -16,8 +15,9 @@ module.exports = {
     },
     
     name : {
-        string : "-n NAME, --name=NAME",
-        help   : "Name to write into package.json"
+        string  : "-n NAME, --name=NAME",
+        help    : "Name to write into package.json",
+        default : "it-is-a-mystery"
     },
 
     output : {
