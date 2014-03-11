@@ -1,6 +1,6 @@
 {
   "name": "yui-clumper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create NPM-ready packages of specific YUI modules",
   "main": "lib/index.js",
   "bin": {
