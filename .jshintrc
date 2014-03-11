@@ -61,5 +61,15 @@
     "node": true,
 
     // Legacy
-    "onevar"        : true     // true: Allow only one `var` statement per function
+    "onevar"        : true,     // true: Allow only one `var` statement per function
+    
+    // Predefined globals
+    "predef" : [
+        "describe",
+        "it",
+        "before",
+        "beforeEach",
+        "after",
+        "afterEach"
+    ]
 }
