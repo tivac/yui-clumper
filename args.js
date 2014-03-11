@@ -20,7 +20,8 @@ module.exports = {
     },
     
     template : {
-        string : "-t TEMPLATE, --template=TEMPLATE",
-        help   : "Package.json template file"
+        string  : "-t TEMPLATE, --template=TEMPLATE",
+        help    : "Package.json template file",
+        default : "./templates/package.json"
     }
 };
