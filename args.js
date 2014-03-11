@@ -1,6 +1,13 @@
 "use strict";
 
 module.exports = {
+    filters : {
+        string  : "-f FILTER, --filter=FILTER",
+        help    : "YUI file versions to include",
+        list    : true,
+        default : [ "min" ]
+    },
+    
     modules : {
         position : 0,
         help     : "YUI modules to package together",
